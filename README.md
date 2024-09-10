@@ -1,5 +1,8 @@
 # Frontend Automation Framework
-This is a Frontend Automation Framework built to automate end-to-end (E2E) testing for web applications
+
+## introduction
+
+This is a Frontend Automation Framework built to automate web applications by using java, selenium and maven.
 
 ## Prerequisites:
 

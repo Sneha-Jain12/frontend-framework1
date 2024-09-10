@@ -1,41 +1,28 @@
-# GUI functional testing
-This automation framework is designed to test the webapplication using Java,Selenium and TestNG and Maven
+# Frontend Automation Framework
+This is a Frontend Automation Framework built to automate end-to-end (E2E) testing for web applications
 
 ## Prerequisites:
 
-- Java JDK11
-- Maven
-- Web browser
-
-## Technologies
-
-- Java: Programming language for writing tests
-- Selenium WebDriver: For browser automation
-- TestNG: Managing test suites
-- Maven: Build automation tool
-- Extent reports: For test reporting
-
+- Java JDK11 
+- Google Chrome, Mozilla Firefox, or other supported browsers
+- Maven: Build management tool
+- Selenium WebDriver: To automate browsers
+- TestNG: Test framework
+- Extent reports: Generating reports
 
 ## Installations:
 
-*To download the project:*
+*To clone the repository*
+git clone  https://github.com/Sneha-Jain12/frontend-framework1
 
-*Clone the repository*
-git clone  https://https://github.com/Sneha-Jain12/frontend-framework1
 
-*Execute the program:*
-from command line :mvn test 
+## Architecture of framework:
 
-*packages in the framework:*
-
-- Base: In base class initialisation of driver,loading properties file and handling synchronization issues.
-- Config package:Configurations like browser,user defined here
+- base package: base package contains code for lauching the browser and loading property file .
+- config package: This package is used to manage the test configurations like browsername and url.
 - Resources:
-    - globalPackage
-    - staticPackage
- - Utilities: classes for storing evidences,reporting 
+- Utilities: This package contains screenshot utility to take evidences and extent report utility to generate report
     - extent report will be genearted and stored in src/main/java/reports
     - evidences will be stored in C:\SavedScreenshot
 
-*Test cases:*
-Test cases will be written under test/java folder
+
